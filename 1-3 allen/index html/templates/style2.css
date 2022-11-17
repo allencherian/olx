@@ -1,0 +1,61 @@
+body{
+    background-image: repeating-conic-gradient(red 10deg 20deg ,yellow);
+}
+.image{
+    width:100px;
+    margin: auto;
+    height: 200px;
+    display: flex;
+    padding : 10px;
+    vertical-align: middle;
+    
+}
+
+    
+
+h1{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+.password{
+    color: red;
+    font-size: small;
+    text-decoration: solid;
+}
+
+.container{
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    border: 2px solid black;
+}
+.container inut[type="button"]{
+    width: 100px;
+}
+input[type="text"]{
+    border: none;
+    border-bottom: 1px solid red;
+
+}
+input[type="number"]{
+    border: 1px solid blue;
+
+}
+input:focus{
+    border: none;
+    background-color: blueviolet;
+}
+.container input[type="button"]:hover{
+    background-color: yellow;
+    border-radius: 10px;
+}
+.container{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    margin-top: 5%;
+    border: 1px solid gray;
+    background-image:radial-gradient c(100deg, red,blue);
+}
+
